@@ -1,3 +1,5 @@
+" VIM Configuration File
+" Author:Prakhar Pal
 "setting up a new persistent colorscheme
 colorscheme moriarty
 "setting cindent which works awesome for C
@@ -5,17 +7,7 @@ set cindent
 "You also have to enable plugins by adding these two lines in your|.vimrc|file: >
 set nocp
 filetype plugin on
-" VIM Configuration File
-" Description: Optimized for C/C++ development, but useful also for other things.
-" Author: Gerhard Gappmeier
-"
 
-" set UTF-8 encoding
-"set enc=utf-8
-"set fenc=utf-8
-"set termencoding=utf-8
-" disable vi compatibility (emulation of old bugs)
-set nocompatible
 " use indentation of previous line
 set autoindent
 " use intelligent indentation for C
