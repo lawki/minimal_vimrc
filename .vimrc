@@ -2,8 +2,10 @@
 " Author:Prakhar Pal
 "setting up a new persistent colorscheme
 colorscheme moriarty
-"setting cindent which works awesome for C
-set cindent
+"Save the file on creation.One does not simply create a file not to save it!
+autocmd BufNewFile * :write
+"setting cindent only if file is of type C/C++ which works awesome for C,that way if you edit Python file cindent won't interfere
+autocmd BufNewFile,BufRead *.c,*.cpp set cindent
 "You also have to enable plugins by adding these two lines in your|.vimrc|file: >
 set nocp
 filetype plugin on
