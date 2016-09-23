@@ -1,5 +1,6 @@
 " VIM Configuration File
 " Author:Prakhar Pal
+" Contact: prakharlap at gmail dot com
 "setting up a new persistent colorscheme
 colorscheme moriarty
 "Save the file on creation.One does not simply create a file not to save it!
